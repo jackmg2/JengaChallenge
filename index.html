@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link rel="stylesheet" href="./Style.css">
+
+    <title>Jenga</title>
+</head>
+
+<body class="container d-flex flex-column vh-100">
+    <header class="navbar navbar-expand navbar-dark row bd-navbar">
+        <a id="homeLink" href="./index.html" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <h1 id="title" class="ml-2">Jenga Challenge</h1>
+        </a>
+        <select id="languages" aria-label="Pick your language" class="form-select ml-auto">
+            <option value="en" selected>English</option>
+            <option value="fr">Français</option>
+        </select>
+    </header>
+
+    <main role="main" class="container row text-center">
+        <div id="game-container" class="game-container">
+            <h2>Jenga Challenge</h2>
+            <p id="description"></p>
+            <button id="start-button" class="start-button"></button>
+        </div>
+
+        <div id="restart-container" style="display: none;" class="game-container">
+            <h2 id="endgame"></h2>
+            <p id="restart-text"></p>
+            <button id="restart-button" class="start-button"></button>
+        </div>
+
+
+        <div id="text"></div>
+    </main>
+    <footer></footer>
+    <script src="translation.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
