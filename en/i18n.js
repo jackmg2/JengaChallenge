@@ -16,16 +16,12 @@ var challenges = [
         "duration": 30
     },
     {
-        "text": "Legs spread apart at hip width, one arm behind your back",
+        "text": "Put one arm in your back",
         "duration": 30
     },
     {
         "text": "Push the blocks with chopsticks",
         "duration": 30
-    },
-    {
-        "text": "Legs spread apart by one meter",
-        "duration": 45
     },
     {
         "text": "You can only push the blocks with a chopstick in your mouth, the chopstick must not fall",

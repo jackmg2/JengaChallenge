@@ -16,16 +16,12 @@ var challenges = [
         "duration": 30
     },
     {
-        "text": "Les jambes écartées de la largeur des hanches, un bras dans le dos",
+        "text": "On met un bras dans le dos",
         "duration": 30
     },
     {
         "text": "On pousse les blocs avec les baguettes",
         "duration": 30
-    },
-    {
-        "text": "Jambes écartées d'un mètre",
-        "duration": 45
     },
     {
         "text": "On ne peut pousser les blocs qu'avec une baguette dans la bouche, la baguette ne doit pas tomber",
@@ -34,7 +30,7 @@ var challenges = [
 ];
 
 var description = "Inspiré par le livre The Adventure Challenge in bed.\n\n" +
-    "You will need a game of Jenga and a set of chopsticks, yes it will make sense.\n\n" +
+    "Vous aurez besoin d'un Jenga et de deux jeux de baguettes (si si, ça va faire sens).\n\n" +
     "Démarrez une partie de Jenga mais jouez votre tour jusqu'à ce que la tour tombe.\n\n" +
     "Pendant ce temps, votre partenaire essaye de vous perturber. Bien sûr, iel ne peut pas vous bloquer la vue,vous poussez ou faire tomber la tour.\n\n" +
     "Toutes les x secondes, une nouvelle règle va s'afficher et sera à appliquer à votre tour.\n\n" +
